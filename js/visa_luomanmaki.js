@@ -58,7 +58,7 @@ function startData() {
             "Elias Lönnrot",
             "Taisto Hanhi",
             "Aleksis Kivi",
-            '<img src="../img/elias.png" class="img-fluid" alt=""/>',
+            '<img src="img/elias.png" class="img-fluid" alt=""/>',
             "Lönnrot(s.1802-k.1884) kiersi Itä-Suomessa keräten runoja ja loitsuja. Hän uskoi, että runojen\n\
              tapahtumat ja henkilöt olivat todellisia historian tapahtumia. \n\
              Runoja ja riimejä muokaten hän koosti yhtenäisen runo-kokoelman.\n\
@@ -71,7 +71,7 @@ function startData() {
             "Louhi",
             "Käärme",
             "Lohkare",
-            '<img src="../img/louhi.png" class="img-fluid" alt=""/>',
+            '<img src="img/louhi.png" class="img-fluid" alt=""/>',
             "Louhi on pohjalaisten johtaja ja kalevalaisten vihollinen.\n\
             Pohjolan emäntää sanotaan noidaksi, tautien, vaivojen ja ongelmien luojaksi.\n\
             Hänellä on kauniita tyttäriä, joita kalevalaiset käyvät kosimassa.");
@@ -83,7 +83,7 @@ function startData() {
             "Kanteleen",
             "Jousipyssyn",
             "Oven",
-            '<img src="../img/hauki.png" class="img-fluid" alt=""/>',
+            '<img src="img/hauki.png" class="img-fluid" alt=""/>',
             "Sampoa ryöstämään mennessään kalevalaisten vene joutui hauen niskaan.\n\
              Surmattuaan ja syötyään kalan Väinämöinen keksi valmistaa siitä ensimmäisen kanteleen.\n\
              Soitto on niin kaunista että koko maailma pysähtyi sitä kuuntelemaan.\n\
@@ -96,7 +96,7 @@ function startData() {
             "Sampo tuhoutuu ja putoaa mereen",
             "Sampo tuottaa rikkauksia Väinämöiselle",
             "Pohjalaiset saavat Sammon takaisin",
-            '<img src="../img/sampo.png" class="img-fluid" alt=""/>',
+            '<img src="img/sampo.png" class="img-fluid" alt=""/>',
             "Kalevalaiset vievät veneellä sammon. Louhi muuttuu kokko-linnuksi \n\
             ja hyökkää kalevalaisten kimppuun. Sampo tuhoutuu pieniksi sirpaleiksi.\n\
             Louhi saa sammon kannen ja sirpaleet rikastuttavat kalevalaisten maaperän.\n\
@@ -109,7 +109,7 @@ function startData() {
             "Ilmarinen",
             "Väinämöinen",
             "Kullervo",
-            '<img src="../img/seppa.png" class="img-fluid" alt=""/>',
+            '<img src="img/seppa.png" class="img-fluid" alt=""/>',
             "Louhi lupasi tyttärensä seppä Ilmariselle, jos tämä takoo sammon.\n\
             Pohjolan emäntä pettää kuitenkin lupauksensa ja lukitsee sammon lukkojen taakse.\n\
              Sampo luo rikkauksia, viljaa ja suolaa omistajalleen.");
@@ -121,7 +121,7 @@ function startData() {
             "Mehiläinen",
             "Muurahainen",
             "Kottarainen",
-            '<img src="../img/aiti.png" class="img-fluid" alt=""/>',
+            '<img src="img/aiti.png" class="img-fluid" alt=""/>',
             "Lemminkäinen surmaa Pohjolan isännän ja pakenee. Eräs pohjalainen\n\
             surmaa ja pilkkoo Lemminkäisen upottaen ruumiin tuonen jokeen.\n\
              Lemminkäisen äiti kerää poikansa palat ja kutsuu mehiläisen tuomaan \n\
@@ -134,7 +134,7 @@ function startData() {
             "Ilmatar",
             "Kuutar",
             "Vedetär",
-            '<img src="../img/vainamoinen.png" class="img-fluid" alt=""/>',
+            '<img src="img/vainamoinen.png" class="img-fluid" alt=""/>',
             "Ilmatar on taivaallinen neito. Hän tulee raskaaksi tuulesta ja synnyttää Väinämöisen.\n\
              Syntyessään Väinämöinen on jo vanhana mies.");
 
@@ -145,7 +145,7 @@ function startData() {
             "Kilpalaulaen",
             "Miekoin",
             "Nyrkein",
-            '<img src="../img/taistelu.png" class="img-fluid" alt=""/>',
+            '<img src="img/taistelu.png" class="img-fluid" alt=""/>',
             "Joukahainen haastaa Väinämöisen. Hän kumminkin häviää ja Väinämöinen \n\
             loitsii hänet laumalla suohon. Pelastuakseen Joukahainen lupaa siskonsa \n\
             tietäjälle vaimoksi.");
@@ -157,7 +157,7 @@ function startData() {
             "Iku-Turso",
             "Ihmissusi",
             "Zombie",
-            '<img src="../img/hirvio.png" class="img-fluid" alt=""/>',
+            '<img src="img/hirvio.png" class="img-fluid" alt=""/>',
             "Iku-Turso on vesihirviö. Se pysähtyttää kalevalaisten matkan,\n\
             mutta Väinämöinen ottaa korvasta kiinni otusta. Iki-Turso vannoo \n\
             ettei enää ahdistele ihmisiä.");
@@ -169,7 +169,7 @@ function startData() {
             "Hän hukuttautuu ja muuttuu Vellamon neidoksi",
             "Hän peruu koko liiton",
             "Hän suostuu suruissaan Väinämöisen vaimoksi",
-            '<img src="../img/aino.png" class="img-fluid" alt=""/>',
+            '<img src="img/aino.png" class="img-fluid" alt=""/>',
             "Jouhakainen lupasi siskonsa vaimoksi Väinämöiselle.\n\
             Hän kieltätyy ja hukuttautuu. Väimöinen kieltää ottamasta vanhaa \n\
             puolisoa tai menemästä naimisiin nuorena.");
@@ -209,10 +209,10 @@ Tietämyksesi ansaitsee palkinnon. Valitse haluamasi taustakuva ja tallenna se o
  Jos ne katoavat visaile uudestaan ja saat palkkion uudestaan.</p>\n\
 <div class="row d-flex justify-content-center align-items-center"><div class="col-12 col-lg-3">\n\
 <h3>Kännykän taustakuva</h3>\n\
-<img src="../img/luomanmaki_img/kalevala_kannytaustakuva.jpg" class="img-fluid img" alt=""/>\n\
+<img src="img/luomanmaki_img/kalevala_kannytaustakuva.jpg" class="img-fluid img" alt=""/>\n\
 </div><div class="col-12 col-lg-6">\n\
 <h3>Tietokoneen taustakuva 1920x1080</h3>\n\
-<img src="../img/luomanmaki_img/kalevala_taustakuva1920_1080.jpg" class="img-fluid" alt=""/>\n\
+<img src="img/luomanmaki_img/kalevala_taustakuva1920_1080.jpg" class="img-fluid" alt=""/>\n\
 </div></div>';
 
 $(document).ready(function () {
