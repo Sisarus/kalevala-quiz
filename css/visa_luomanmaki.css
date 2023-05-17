@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7.4.2020, 11:35:21
+    Author     : Alisa Luomanmäki
+*/
+
+/* Väri määrittelyitä */
+.oikein{
+    background-color:  #004d00;
+    color: white;
+    font-weight: bold;
+}
+
+.oikea{
+    background-color: #132639;
+    color: white;
+    font-weight: bold;
+}
+
+.vaara{
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+
+.vastaus{
+    background-color: #fff;
+}
+
+.pelitausta{
+    background: linear-gradient(to bottom, #46afff 0%, #3973ac 100%);
+    border-radius: 1rem;
+}
+
+.taivas{
+    background: #3973ac;
+    color: white;
+    font-weight: bold;
+}
+
+.varia{
+    background-color: #132639;
+    color: white;
+    font-weight: bold;
+}
+
+.varia:hover{
+    background-color: #204060;
+    color: white;
+    font-weight: bold;
+
+}
+.taivas:hover{
+    background: #80c8ff;
+    color: white;
+    font-weight: bold;
+}
+
+.vaaleaTausta{
+    background-color: #e6f4ff;
+}
+
+#info{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+/* background-color: #46afff;*/
+.voitot_tausta{
+    background-color: #cce9ff;
+    border-radius: 10px;
+}
+
+#vastaukset{
+    background-color: #b3deff;
+}
+
+/* visapainike */
+.seuraavaP{
+    background-color: #132639;
+    font-size: 1.5rem !important;;
+    padding: 0.5rem !important; 
+    color: #fff;
+}
+.seuraavaP:hover{
+    background-color: #3973ac;
+    color: #ffffff;
+}
+
+.painike{
+    font-size: 2rem !important;;
+    padding: 1rem !important;
+    margin-right: auto;
+}
+
+.not_visible{
+    display: none;
+}
+
+.main{
+    margin: 0 auto;
+    min-height: calc(50vh);
+}
+
+/* Alla oleva koodi on kopiotu
+https://www.w3schools.com/howto/howto_css_custom_checkbox.asp jota olen sit muokannut*/
+/* Customize the label (the container) */
+.containerToinen {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerToinen input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom radio button */
+.checkmarkToinen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerToinen:hover input ~ .checkmarkToinen {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerToinen input:checked ~ .checkmarkToinen {
+    background-color: #768280;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmarkToinen:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerToinen input:checked ~ .checkmarkToinen:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerToinen .checkmarkToinen:after {
+    background: none;
+}
+
+/*Tyylittelyjä visaan */
+
+.tukipuu{
+    min-height: 450px;
+}
+
+.verhop{
+    background-color: #7e0301;
+    border-radius: 50%;
+}
+
+.verhov{
+    background-color: #059702;
+    border-radius: 50%;
+}
+
+.img{
+    width: 60%;
+}

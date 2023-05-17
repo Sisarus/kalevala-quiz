@@ -1,0 +1,359 @@
+/*
+ylapalkin harmaat = #768280;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+
+
+/*Tyylittelyä sivulle */
+
+.padding{
+    padding: 1rem;
+}
+
+.padding_bottom{
+    padding-bottom: 1.5rem;
+}
+
+.padding_top{
+    padding-top: 1.5rem;
+}
+
+/* Tekstisäädöt */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fredoka One', cursive;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jalan_tekstit p {
+    font-family: 'Play', sans-serif;
+}
+
+/*Linkkivärejä */
+
+.navbar a{
+    color: #202020;
+}
+
+a{
+    color: #6600FF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3300FF;
+    text-decoration: none;
+}
+
+/* Tekstivärit */
+
+.text_color_white{
+    color: #ffffff;
+}
+.text_color_red{
+    color: #d90502;
+}
+.text_color_blue{
+    color: #46afff;
+}
+.text_color_yellow{
+    color:  #e6e619;
+}
+.text_color_green{
+    color: #07ce03;
+}
+.text_color_purple{
+    color: #701a59;
+}
+.text_color_orange{
+    color: #f96600;
+}
+
+.text_color_Dgrey{
+    color: #202020;
+}
+
+/*reunavärit värit */
+
+.bg_tausta_1{
+    background-color: #ffffff;
+}
+
+.border_line_red{
+    border: 3px solid #d90502;
+}
+.border_line_blue{
+    border: 3px solid #46afff;
+}
+
+.border_line_yellow{
+    border: 3px solid #e6e619;
+}
+
+.border_line_green{
+    border: 3px solid #07ce03;
+}
+
+.border_line_purple{
+    border:  3px solid #701a59;
+}
+
+.border_line_orange{
+    border:  3px solid #f96600;
+}
+
+/*taustavärit */
+
+.bg_grey{
+    background-color: #768280;
+}
+
+.bg_red{
+    background-color: #d90502;
+}
+
+.bg_blue{
+    background-color: #46afff;
+}
+
+.bg_yellow{
+    background-color: #e6e619;
+}
+
+.bg_green{
+    background-color: #07ce03;
+}
+
+.bg_purple{
+    background-color: #701a59;
+}
+
+.bg_orange{
+    background-color: #f96600;
+}
+
+.bg_ylapalkki{
+    background-color: #a1aaa8;
+}
+
+/*Ylapalkin maarittelyja */
+.ylapalkki h1{
+    text-transform: uppercase;
+    background-color: #768280;
+    color: #ffffff;
+}
+.ylapalkki h3{
+    background-color: #768280;
+    color: #ffffff;
+}
+
+.hr.light_100{
+    border-top: 1px solid #d5d5d5;
+}
+
+.jumbotron {
+    background-image: url("../img/koulu_kansi03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+.col-3,
+.col-2,
+.col-xl-4,
+.col-md-2,
+.col-lg-2{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Header animaatio */
+
+.fa-sun,
+.fa-smile{
+    color: #e6e619;
+}
+
+.fa-sun{
+    font-size: 7rem;
+}
+
+.fa-smile{
+    font-size: 5rem;
+    margin-left: 5.6rem;
+}
+
+.fa-smile{
+    font-size: 5rem;
+}
+
+/* Hidastetaan font awesomen animaatioita */
+.fa-spin {
+    animation-duration: 6s;
+}
+
+/* Overridataan naamalle nopeampi animaatio */
+.fa-smile.fa-spin{
+    animation-duration: 2s;
+    animation-iteration-count: 1; 
+}
+
+/*Navigointipalkki */
+
+.navbar-toggler {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.active{
+    background-color: #46afff;
+    font-weight: bold;
+}
+
+.navbar-light .nav-item > .nav-link:hover {
+    color:#ffffff;
+}
+
+.nav-item a:hover {
+    background-color: #701a59;
+    color: #ffffff;
+    border-radius: 20px;
+    
+}
+
+.nav-item {
+    border-radius: 20px;
+    margin-left:.5em;
+}
+
+#matikkaDropdown,
+#visaDropdown,
+#etusivu,
+#tietojameista{
+    height: 100%;
+}
+
+.navbar-toggler-icon {
+    font-size: 3rem;
+    background-color: #768280;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.leveytta{
+    border: 0;
+    background-color:  #a1aaa8;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+/* FA height ja muita määrittelyitä: 100%; */
+
+.fa-earlybirds,
+.fa-bolt,
+.fa-crown,
+.fa-brain{
+    font-size: 3rem;
+    margin: 1rem;
+}
+.fa-bolt{
+    color: #ff8833;
+}
+.fa-earlybirds{
+    color: #ffffff;
+}
+.fa-crown{
+    color: #e6e619;
+}
+.fa-brain{
+    color: #ffb3b3;
+}
+
+hr {
+    border-top: 3px solid black;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/*footer */
+
+footer {
+    border-radius:  10px 10px 0px 0px;
+    margin-top: 10px;
+}
+
+.foot_hr {
+    border-color: white;
+    width: 95%;
+}
+
+.footImg {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+@media (max-width: 992px){
+    /*Animaatio */
+    .fa-sun{
+        font-size: 5rem;
+    }
+    .fa-smile{
+        font-size: 3rem;
+        margin-left: 4.3rem;
+    }
+
+}
+@media (max-width: 768px){
+
+    /*Animaatio */
+    .fa-sun{
+        font-size: 4.8rem;
+    }
+    .fa-smile{
+        font-size: 2.8rem;
+        margin-left: 4.2rem;
+    }
+
+    /* Nav palkki */
+    .fa-earlybirds,
+    .fa-bolt,
+    .fa-crown,
+    .fa-brain{
+        font-size: 4rem;
+        margin: .5rem;
+        padding-left: .5rem;
+    }
+
+}
+
+@media (max-width: 740px){
+
+    /*Animaatio */
+    .fa-sun{
+        font-size: 4.5rem;
+    }
+    .fa-smile{
+        font-size: 2.8rem;
+        margin-left: 3.9rem;
+    }
+    
+}
+
+
+@media (max-width: 576px){
+
+    /*Animaatio */
+    .fa-sun{
+        visibility: collapse;
+    }
+    .fa-smile{
+        visibility: collapse;       
+    }
+}
