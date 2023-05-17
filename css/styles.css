@@ -5,21 +5,6 @@ ylapalkin harmaat = #768280;
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Play&display=swap');
 
-
-/*Tyylittelyä sivulle */
-
-.padding{
-    padding: 1rem;
-}
-
-.padding_bottom{
-    padding-bottom: 1.5rem;
-}
-
-.padding_top{
-    padding-top: 1.5rem;
-}
-
 /* Tekstisäädöt */
 
 h1, h2, h3, h4, h5, h6{

@@ -203,7 +203,7 @@ viime kierrokselta.";
 const petraus = "Olet runonlausuja. Vielä riittää opittavaa. Jos pelaat uudestaan \n\
 muista tämän visan vihjeet niin pärjäät paremmin.";
 
-const palkinto = '<p class="offset-2 col-8 voitot_tausta padding d-flex justify-content-center">\n\
+const palkinto = '<p class="offset-2 col-8 voitot_tausta d-flex justify-content-center">\n\
 Tietämyksesi ansaitsee palkinnon. Valitse haluamasi taustakuva ja tallenna se omalle koneelle.\n\
  Nämä kuvat katoavat kun poistut sivulta tai aloitat uuden pelin.\n\
  Jos ne katoavat visaile uudestaan ja saat palkkion uudestaan.</p>\n\

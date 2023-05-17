@@ -17,22 +17,17 @@
 
     <body>
         <div class="container">
-           
             <!-- Main -->
-
-            <main class="row bg_tausta_1 main">
-                <div class="col-12 text-center">
-                    <h1 class="display-4 padding_bottom padding">Testaa Kalevala osaamisesi</h1>
+            <main class="row">
+                <div class="col-12 text-center mt-5">
+                    <h1 class="display-4 m-0">Testaa Kalevala osaamisesi</h1>
                 </div>
-
-
                 <!-- Tietovisa alue-->
-                <div class="col-12 pelitausta padding_bottom">
-                    <div class="padding padding_bottom">
+                <div class="col-12 pelitausta mt-5">
+                    <div class="p-3">
                         <button id="uusiPeli" type="button" class="btn varia not_visible btn-block btn-lg">Pelaa uudestaan</button>
-
                         <div>
-                            <h4 class="padding"><span id="otsikko"></span></h4>
+                            <h4><span id="otsikko"></span></h4>
                         </div>
 
                         <div id="visaPaattyy" class="offset-2 col-8 voitot_tausta padding padding_bottom text-center not_visible"></div>
@@ -46,19 +41,19 @@
                                 <span id="visakuva"></span>
                             </div>
                             <!-- Vastaukset tulostuu tähän -->
-                            <div id="vastaukset" class="not_visible padding col-12 col-lg-6 tukipuu">
+                            <div id="vastaukset" class="not_visible p-2 col-12 col-lg-6 tukipuu">
 
-                                <label class="containerToinen">
+                                <label class="containerToinen mx-4 mt-4">
                                     <input type="radio" id="vastaus1" name="visa" class="vastaus"> 
                                     <span class="checkmarkToinen"></span>
                                     <span class="tuloste padding"></span>
                                 </label>
-                                <label class="containerToinen">
+                                <label class="containerToinen  mx-4">
                                     <input type="radio" id="vastaus2" name="visa" class="vastaus"> 
                                     <span class="checkmarkToinen"></span>
                                     <span class="tuloste padding"></span>
                                 </label>
-                                <label class="containerToinen">
+                                <label class="containerToinen  mx-4">
                                     <input type="radio" id="vastaus3" name="visa" class="vastaus"> 
                                     <span class="checkmarkToinen"></span>
                                     <span class="tuloste padding"></span>
@@ -71,7 +66,7 @@
                                 </div>
                             </div>
                             <!-- Pelin eteneminen -->
-                            <div class="col-12 padding_bottom not_visible voitot_tausta padding_puoli"
+                            <div class="col-12 padding_bottom not_visible voitot_tausta p-3"
                                  id="peliEteminen">
                                 <div class="h3 padding padding_bottom d-flex justify-content-center"
                                      id="voitot2"></div><div class="row d-flex justify-content-center"
@@ -92,7 +87,7 @@
                 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-        <script src="../js/visa_luomanmaki.js" type="text/javascript"></script>
+        <script src="js/visa_luomanmaki.js" type="text/javascript"></script>
     </div>
 </body>
 
