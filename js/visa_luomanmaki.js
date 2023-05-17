@@ -5,10 +5,6 @@
  * 
  */
 
-/* Alla on olio jonka tein tehtävää varten.
- * siinä on kysymys, 3 vastausta mistä yksi on oikea,
- * kuva aiheesta ja selitys, joka tulee esille kun on vastannut*/
-
 class Kysymys {
     constructor(kysymys, vastausOikea, vastausVaara, toinenVaara, kuva, selitys) {
         this._kysymys = kysymys;
